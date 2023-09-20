@@ -57,6 +57,7 @@ String convertToGeez(String arabic_number) {
           converted.removeLast();
         }
       }
+      
       converted.add(special[subindex]);
       if (subindex == 1) {
         subindex = 0;
